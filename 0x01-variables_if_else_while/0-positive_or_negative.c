@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0
+ * Return:always return 0
  *
  */
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 		printf("%d is zero\n", n);
 	} else 
 	{
-		pritf("%d is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	return (0);
 }
