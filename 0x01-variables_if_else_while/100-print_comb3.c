@@ -6,30 +6,19 @@
  */
 int main(void)
 {
-	int i, k = '0', j;
+	int i;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (j = k; j <= '9', j++)
-		{
-			putchar(i);
-			putchar(j);
-		}
-		if (i = j)
-		{
-			continue;
-		}
-		if (i == '8' && j == '9')
-		{
-			break;
-		}
-		else
+		putchar((i / 10) + '0');
+		putchar((i % 10) + '0');
+		if (i != 99)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		k++;
 	}
-	putchar('\n');
+	putchar('\n);
+
 	return (0);
 }
