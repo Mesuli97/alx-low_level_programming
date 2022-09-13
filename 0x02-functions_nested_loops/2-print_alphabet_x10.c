@@ -1,24 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Print alphabet in lowercase using only `_putchar`
  *
  * Return: always return 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	{
-		void print_alphabet_x10(void)
-	}
-		char i;
-		char j;
+	char c = 'a';
 
-		for (i = 0; i <= 9; i++)
+	while (c <= 'z')
 	{
-	for (j = 'a'; j <= 'z'; j++)
-	{
-	_putchar(i);
+		_putchar(c);
+		c++;
 	}
-_putchar('\n');
-	}
+	_putchar('\n');
 }
